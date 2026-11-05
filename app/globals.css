@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  --color-bg: #0b0c0c;
+  --color-bg2: #141515;
+  --color-gold: #eacb54;
+  --color-mute: #a7a7a7;
+}
+html { scroll-behavior: smooth; background: #0b0c0c; }
+body { background: #0b0c0c; color: #fff; font-family: var(--font-body), system-ui, sans-serif; overflow-x: hidden; }
+.font-display { font-family: var(--font-display), Impact, sans-serif; letter-spacing: 0.01em; }
+.grain { background-image: radial-gradient(rgba(234,203,84,.08) 1px, transparent 1px); background-size: 22px 22px; }
+:focus-visible { outline: 2px solid #eacb54; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
